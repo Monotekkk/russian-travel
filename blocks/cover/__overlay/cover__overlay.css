@@ -1,0 +1,8 @@
+.cover__overlay{
+
+    width: 1184px;
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
