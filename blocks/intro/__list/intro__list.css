@@ -10,3 +10,9 @@
     color: #FFFFFF;
     margin-bottom: 92px;
 }
+@media screen and (width: 320px) {
+    .intro__list{
+        padding-left: 16px;
+        margin-bottom: 64px;
+    }
+}

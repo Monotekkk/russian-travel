@@ -9,3 +9,11 @@
     max-width: 640px;
     margin: 0 auto 64px;
 }
+
+@media screen and (max-width: 320px) {
+    .lead__subtitile {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+}

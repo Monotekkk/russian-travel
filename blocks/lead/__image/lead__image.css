@@ -1,6 +1,25 @@
-.lead__image{
+.lead__image {
     background: url(../../../images/__image.png);
-    width: 984px;
+    background-size: cover;
+    max-width: 100%;
     height: 615px;
     margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .lead__image {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__image {
+        max-width: 768px;
+    }
+}
+@media (max-width: 320px) {
+    .lead__image {
+        max-width: 320px;
+        max-height: 200px;
+    }
 }
