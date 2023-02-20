@@ -10,3 +10,8 @@
         grid-row: 3;
     }
 }
+@media screen and (max-width: 768px) {
+    .place__image{
+        width: 340px;
+    }
+}

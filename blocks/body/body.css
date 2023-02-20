@@ -4,3 +4,18 @@
     background-color: #2A2C2F;
     max-width: 1280px;
 }
+@media (max-width: 1024px) {
+    .body{
+        max-width: 1024px;
+    }
+  }
+  @media (max-width: 768px) {
+    .body{
+        max-width: 768px;
+    }
+  }
+  @media screen and (width: 320px) {
+    .body{
+        max-width: 320px;
+    }
+}
