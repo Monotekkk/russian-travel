@@ -1,8 +1,10 @@
 .photo-grid{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 16px;
     margin-bottom: 92px;
+    max-width: 100%;
 }
 @media (max-width: 1024px) {
     .photo-grid{
