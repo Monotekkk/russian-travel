@@ -2,13 +2,12 @@
    background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../images/cover-trains.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 1184px;
-    height: 740px;
+    background-size:cover;
+    width: 100%;
+    min-height: 740px;
+
     margin: 0 auto;
     margin-bottom: 68px;
-    width: 1184px;
-    height: 740px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,12 +24,16 @@
 @media (max-width: 1024px) {
     .cover {
         max-width: 1024px;
+        width: 100%;
+        min-height: 640px;
     }
 }
 
 @media (max-width: 768px) {
     .cover {
         max-width: 768px;
+        width: 100%;
+        min-height: 480px;
     }
 }
 
@@ -38,5 +41,7 @@
     .cover {
         max-width: 320px;
         max-height: 200px;
+        width: 100%;
+        min-height: 200px;
     }
 }
