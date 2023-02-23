@@ -1,10 +1,13 @@
-@import url(../fonts/Inter-fonts.css);
+@import url(../vendor/normalize.css);
+
+@import url(../fonts/fonts.css);
 
 @import url(../blocks/body/body.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header___logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
-@import url(../blocks/header/__lang-links/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/__active/header__lang-link__active.css);
 
 @import url(../blocks/content/content.css);
 
@@ -18,15 +21,17 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__numbers/intro__numbers.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
+@import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph/place__paragraph-container.css);
+@import url(../blocks/place/__paragraph-container/place__paragraph-container.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
@@ -41,3 +46,4 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__copyrighting/footer__copyrighting.css);
 @import url(../blocks/footer/__list/footer__list.css);
+*{ outline: 1px solid yellowgreen; }

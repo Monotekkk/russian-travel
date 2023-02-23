@@ -7,10 +7,11 @@
     color: #FFFFFF;
     margin: 0;
     margin-right: 18px;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
-    text-decoration: underline;
+    opacity: 0.6;
 }
 
 .header__lang-link:last-child {
@@ -19,7 +20,6 @@
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        font-weight: 400;
         font-size: 18px;
         line-height: 20px;
     }

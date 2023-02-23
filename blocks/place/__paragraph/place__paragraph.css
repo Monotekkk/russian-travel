@@ -9,16 +9,18 @@
     color: #FFFFFF;
     margin-bottom: 26px;
 }
-
-@media screen and (max-width: 320px) {
+.place__paragraph:last-child{
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
+
+    }
+}
+@media screen and (max-width: 767px) {
+    .place__paragraph {
         padding: 0 16px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .place__paragraph {
-        font-size: 16px;
-    }
-}

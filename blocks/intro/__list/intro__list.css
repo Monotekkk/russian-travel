@@ -3,21 +3,21 @@
     padding: 0;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     list-style-type: none;
     color: #FFFFFF;
     margin-bottom: 92px;
 }
-@media screen and (width: 320px) {
+@media screen and (max-width:1023px){
+    .intro__list{
+        padding-left: 24px;
+    }
+}
+@media screen and (max-width: 767px) {
     .intro__list{
         padding-left: 16px;
         margin-bottom: 64px;
-    }
-}
-@media screen and (max-width:768px){
-    .intro__list{
-        padding-left: 24px;
     }
 }
