@@ -1,3 +1,4 @@
 .place__paragraph-container{
     grid-column: 2;
+    margin: 0 auto;
 }
