@@ -1,8 +1,9 @@
 .place {
   display: grid;
   grid-template-columns: max-content 1fr ;
-  margin-bottom: 80px;
   grid-gap: 48px 40px;
+  margin: 0 auto;
+  margin-bottom: 80px;
 }
 .place:last-child{
   margin-bottom: 0;
@@ -11,6 +12,7 @@
   .place {
     grid-template-columns: max-content 1fr;
     grid-gap: 48px 32px;
+    max-width: 928px;
   }
 }
 
